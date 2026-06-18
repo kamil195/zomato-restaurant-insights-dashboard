@@ -28,18 +28,17 @@ The dashboard summarizes 9,551 restaurants, 250 cuisines, 15 countries, 141 citi
 ## Repository structure
 
 ```text
-dashboard/
-  Zomato_Insights_Dashboard.pbix
-reports/
-  dashboard_overview.pdf
-images/
-  dashboard_overview.png
+Zomato_Insights_Dashboard.pbix
+dashboard_overview.pdf
+project_summary.md
 docs/
   project_summary.md
 README.md
 LICENSE
 .gitignore
 ```
+
+The main Power BI file and PDF report are stored in the repository root for direct access. Additional project documentation is available in the `docs` folder.
 
 ## Tools and skills demonstrated
 
@@ -52,10 +51,15 @@ LICENSE
 
 ## How to view the project
 
-1. Download the `.pbix` file from the `dashboard` folder.
+1. Download `Zomato_Insights_Dashboard.pbix` from the repository root.
 2. Open it using Microsoft Power BI Desktop.
 3. Use the country and year filters to explore the dashboard interactively.
-4. Open the PDF in the `reports` folder for a non-interactive overview.
+4. Open `dashboard_overview.pdf` for a non-interactive overview.
+5. Read `docs/project_summary.md` for the project summary and findings.
+
+## Optional improvement
+
+A clean screenshot of the final dashboard can be added later so GitHub visitors can preview the project without opening Power BI.
 
 ## Author
 
